@@ -18,3 +18,7 @@ or b) the multi-instrument transcription model described in
 For now, we do not (easily) support training.  If you like, you can try to
 follow the [T5X training instructions](https://github.com/google-research/t5x#training)
 and use one of the tasks defined in [tasks.py](mt3/tasks.py).
+
+## To download checkpoints
+`gsutil -q -m cp -r gs://mt3/checkpoints mt3/
+`
